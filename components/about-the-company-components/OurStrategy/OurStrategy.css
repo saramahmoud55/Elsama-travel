@@ -1,0 +1,118 @@
+
+div.strategygallery {
+   width: 100%;
+}
+
+div.strategygallery img {
+  float: left;
+  height: 100%;
+}
+
+div.strategygallery h2 {
+  color: #4b74a8;
+}
+
+
+
+.strategyresponsive
+{
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .strategyresponsive {
+      width: 50%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .strategyresponsive {
+      width: 100%;
+  }
+
+  div.strategygallery img {
+      width: 100%;
+
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.strategycontainer{
+  width: 100%;
+  margin: 20px auto;
+}
+
+.strategyparagraph {
+  margin: 20px;
+  width: 100%;
+  display: inline-block;
+  font-weight: 600;
+  color: #858584;
+}
+
+.strategyparagraph>p {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.strategyparagraph ::-webkit-scrollbar {
+  display: none;
+}
+
+.strategyparagraph>p:focus {
+  outline: none;
+}
+
+@media(max-width:800px) {
+  .strategycontainer{
+      width: 670px;
+  }
+}
+
+@media(max-width:700px) {
+  .strategycontainer{
+      width: 500px;
+  }
+}
+
+@media(max-width:600px) {
+  .strategycontainer{
+      width: 100%;
+  }
+
+  .strategyparagraph {
+      width: 75%
+  }
+}
+
+@media(max-width:400px) {
+  .strategyparagraph {
+      margin: 0 10px;
+      width: 100%;
+      display: block;
+  }
+ 
+}
+
+@media(max-width:300px) {
+  .strategyparagraph {
+      margin: 0 10px;
+      width: 100%;
+      display: block;
+  }
+  
+}

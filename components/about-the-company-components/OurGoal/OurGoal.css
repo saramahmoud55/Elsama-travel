@@ -1,0 +1,116 @@
+
+div.goalgallery {
+   width: 100%;
+}
+
+div.goalgallery img {
+  float: left;
+  height: 100%;
+}
+
+div.goalgallery h1 {
+  color: #4b74a8;
+}
+
+
+.goalresponsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .goalresponsive {
+      width: 50%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .goalresponsive {
+      width: 100%;
+  }
+
+  div.goalgallery img {
+      width: 100%;
+
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.goalcontainer {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.goalparagraph {
+  margin: 20px;
+  width: 100%;
+  display: inline-block;
+  font-weight: 600;
+  color: #858584;
+}
+
+.goalparagraph>p {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.goalparagraph ::-webkit-scrollbar {
+  display: none;
+}
+
+.goalparagraph>p:focus {
+  outline: none;
+}
+
+@media(max-width:800px) {
+  .goalcontainer {
+      width: 670px;
+  }
+}
+
+@media(max-width:700px) {
+  .goalcontainer {
+      width: 500px;
+  }
+}
+
+@media(max-width:600px) {
+  .goalcontainer {
+      width: 100%;
+  }
+
+  .goalparagraph {
+      width: 75%
+  }
+}
+
+@media(max-width:400px) {
+  .goalparagraph {
+      margin: 0 10px;
+      width: 100%;
+      display: block;
+  }
+ 
+}
+
+@media(max-width:300px) {
+  .goalparagraph {
+      margin: 0 10px;
+      width: 100%;
+      display: block;
+  }
+  
+}
