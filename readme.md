@@ -15,7 +15,6 @@ airport lounges and football tickets. You can also get travel insurance and othe
 - [tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework used to design and style the website.
 - [Chakra UI](https://chakra-ui.com/): A simple, modular, and accessible component library for building user interfaces with React.
 - [tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework used to design and style the website.
-- [axios](https://www.npmjs.com/package/axios): Used for making HTTP requests to fetch property data from the backend.
 - [framer-motion](https://www.framer.com/api/motion/): Used for creating smooth animations and transitions for a more interactive user interface.
 - [react-dom](https://reactjs.org/docs/react-dom.html): Provides the entry point to work with the DOM (Document Object Model) in React applications.
 - [react-icons](https://react-icons.github.io/react-icons/): Offers a wide range of icons for use in the application's user interface.
