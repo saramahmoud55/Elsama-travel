@@ -1,7 +1,7 @@
 # Elsama - Traveling Web App
 
 It is a website that offers booking services for hotels, flights, tours, transfers, car rental, trains, ferries,
-airport lounges and football tickets. You can also get travel insurance and other services.
+airport lounges  . You can also get travel insurance and other services.
 
 ## Features
 
